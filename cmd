@@ -3,6 +3,7 @@
 import gtk, webkit
 
 win = gtk.Window()
+win.set_size_request(800, 600)
 win.connect('destroy', lambda w: gtk.main_quit())
 
 box1 = gtk.VBox()
