@@ -1,7 +1,7 @@
 
 CMD 
 ====
-cmd is app which gives Linux native terminal look and feel to the cmd.to which is an internet operating system based on command-line interface.
+cmd is app which gives Linux native terminal look and feel to an internet operating system based on command-line interface.
 visit: https://cmd.to/
 
 
