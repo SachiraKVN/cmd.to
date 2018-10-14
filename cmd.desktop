@@ -2,6 +2,6 @@
 Version=1.0
 Name=Cmd.to 
 Type=Application
-Icon=/home/eskep/.cmd.to/cmd.ico
+Icon=~/.cmd.to/cmd.ico
 Exec=/usr/bin/cmd
 Name[en_US]=cmd.to 
