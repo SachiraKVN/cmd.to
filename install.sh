@@ -6,7 +6,7 @@ current_directory=$(pwd);
 
 chmod -R 777 "$current_directory/"
 replacement="$HOME"
-sed -i "s:\~:${replacement}:g" "$current_directory/cmd.desktop" &2 > /dev/null
+sed -i "s:\~:${replacement}:g" "$current_directory/cmd.desktop" &1 > /dev/null
 cp  "$current_directory/cmd.desktop" $HOME/Desktop
 sed 
 echo 'coping ...'
@@ -16,8 +16,3 @@ cp -a  $current_directory $HOME/.cmd.to
  sudo cp -f ./cmd /usr/bin
  
  exit
-
-# Get current working directory
-# echo "$(dirname "$(pwd)/$?")"
-
-
